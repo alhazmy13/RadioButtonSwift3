@@ -1,14 +1,13 @@
-//
-//  ViewController.swift
-//  RadioButtonSwift3
-//
-//  Created by Abdullah Alhazmy on 5/4/17.
-//  Copyright © 2017 Abdullah Alhazmy. All rights reserved.
-//
+# RadioButtonSwift3
 
-import UIKit
+# How to use
+* Put some UIButtons onto a View and change the UIButtons' type to "custom".
+* Set the UIButtons' class to "RadioButton"
+* To customize the button, simply set properties directly in Interface Builder
 
-class ViewController: UIViewController {
+# Code Example 
+```swift
+
 
     @IBOutlet weak var radioButton1: RadioButton!
     @IBOutlet weak var radioButton2: RadioButton!
@@ -20,17 +19,16 @@ class ViewController: UIViewController {
         ]
     }()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 
-    @IBAction func onRadioButtonClicked(_ sender: RadioButton) {
+    @IBAction func onRadioButton1Clicked(_ sender: RadioButton) {
         updateRadioButton(sender)
     }
-    @IBAction func onSecondRadioButtonClicked(_ sender: RadioButton) {
+    @IBAction func onRadioButton2Clicked(_ sender: RadioButton) {
          updateRadioButton(sender)
     }
     
+
+    // MAIN Methodes
     func updateRadioButton(_ sender: RadioButton){
         radioButtons.forEach { $0.isSelected = false }
         sender.isSelected = !sender.isSelected
@@ -42,12 +40,5 @@ class ViewController: UIViewController {
          radioButtons.forEach { if($0.isSelected){ radioButton =  $0 } }
         return radioButton
     }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
 
-
-}
-
+ ```

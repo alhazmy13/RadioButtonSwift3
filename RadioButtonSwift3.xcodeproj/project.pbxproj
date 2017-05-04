@@ -14,6 +14,7 @@
 		372EB6EE1EBB15A5009D88BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372EB6EC1EBB15A5009D88BD /* LaunchScreen.storyboard */; };
 		372EB6F91EBB15A6009D88BD /* RadioButtonSwift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EB6F81EBB15A6009D88BD /* RadioButtonSwift3Tests.swift */; };
 		372EB7041EBB15A6009D88BD /* RadioButtonSwift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EB7031EBB15A6009D88BD /* RadioButtonSwift3UITests.swift */; };
+		372EB7121EBB15C9009D88BD /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EB7111EBB15C9009D88BD /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		372EB6FF1EBB15A6009D88BD /* RadioButtonSwift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioButtonSwift3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		372EB7031EBB15A6009D88BD /* RadioButtonSwift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonSwift3UITests.swift; sourceTree = "<group>"; };
 		372EB7051EBB15A6009D88BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372EB7111EBB15C9009D88BD /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				372EB6EA1EBB15A5009D88BD /* Assets.xcassets */,
 				372EB6EC1EBB15A5009D88BD /* LaunchScreen.storyboard */,
 				372EB6EF1EBB15A5009D88BD /* Info.plist */,
+				372EB7111EBB15C9009D88BD /* RadioButton.swift */,
 			);
 			path = RadioButtonSwift3;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372EB7121EBB15C9009D88BD /* RadioButton.swift in Sources */,
 				372EB6E61EBB15A5009D88BD /* ViewController.swift in Sources */,
 				372EB6E41EBB15A5009D88BD /* AppDelegate.swift in Sources */,
 			);
